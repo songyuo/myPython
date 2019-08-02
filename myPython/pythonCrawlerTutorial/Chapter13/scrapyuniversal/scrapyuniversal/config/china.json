@@ -1,0 +1,16 @@
+{
+  "spider": "universal",
+  "website": "中华城",
+  "type": "新闻",
+  "index": "http://tech.china.com/",
+  "settings": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36"
+  },
+  "start_urls": [
+    "http://tech.china.com/articles"
+  ],
+  "allowed_domains": [
+    "tech.china.com"
+  ],
+  "rules": "china"
+}

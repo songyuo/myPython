@@ -1,0 +1,28 @@
+import multiprocessing as mp
+import os
+import time
+import random
+
+time.localtime()
+time.time()
+
+def task(x):
+    return x*x
+
+
+def test2():
+    print(123)
+    pool = mp.Pool(processes=8)
+    result = pool.map(task, range(10000000))
+    print(result)
+
+
+def test1():
+    print(os.environ.get("Path"))
+
+
+if __name__ == '__main__':
+    # test()
+    print(os.path.join(".", "132"))
+
+
